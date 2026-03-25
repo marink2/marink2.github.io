@@ -25,6 +25,26 @@
       <p class="eyebrow">Interactive Figure 2</p>
       <h2>Results - First carbon K-edge</h2>
       <p>Carbon 1s to SOMO core-excitation.</p>
+      <section
+        class="trajectory-viewer"
+        data-trajectory="data/traj_pos_bend_somo.xyz"
+      >
+        <div class="viewer-head">
+          <h3>Trajectory Viewer</h3>
+          <p>Drag to rotate</p>
+        </div>
+        <div class="viewer-stage">
+          <canvas width="820" height="520"></canvas>
+          <div class="viewer-time" aria-live="polite">0.0000 fs</div>
+        </div>
+        <div class="viewer-controls">
+          <button type="button" class="viewer-toggle">Pause</button>
+          <label class="viewer-scrub">
+            <span>Frame</span>
+            <input type="range" min="0" max="0" value="0" step="1">
+          </label>
+        </div>
+      </section>
     </section>
   </main>
 
